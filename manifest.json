@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "bitmex-scaler",
+    "description": "Bitmex scaler",
+    "version": "1.0",
+
+    "permissions": [
+      "*://*.bitmex.com/*",
+      "webRequest",
+      "activeTab"
+    ],
+
+    "browser_action": {
+      "default_icon": {
+       "32" : "icons/bitmex.png"
+      },
+      "default_title": "Bitmex Scaler",
+      "default_popup": "popup/scaler.html"
+  }   
+  }
